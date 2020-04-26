@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular-firebase-api": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-firebase-api"
+    }
+  },
+  "defaultProject": "angular-firebase-api",
+  "cli": {
+    "analytics": "be6ab567-48e3-4bec-9a6f-e535cc07ba36"
+  }
 }
