@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StartPageComponent } from './start-page/start-page.component';
+import { StartPageComponent } from './components/start-page/start-page.component';
 import { from } from 'rxjs';
 
 @NgModule({
