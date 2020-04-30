@@ -1,1 +1,16 @@
-<p>start-page works!</p>
+<p>start-page works! {{name}}</p>
+<input (keyup)="onKey($event)">
+<button (click)="save()">save</button><br>
+
+<ol>
+    <li *ngFor="let user of users">
+        <div>
+            <p>
+                {{user.name}} &nbsp;
+                <button (click)="delete(user.key)">Delete</button>
+            </p>
+        </div>
+
+
+    </li>
+</ol>
